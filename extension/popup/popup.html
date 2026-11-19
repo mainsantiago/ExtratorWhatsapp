@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <title>Extrator de Conversas</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header>
+    <img src="../icons/icon32.png" alt="" width="24" height="24" />
+    <h1>Extrator de Conversas</h1>
+  </header>
+
+  <section id="status" class="status status--wait">Verificando o WhatsApp Web…</section>
+
+  <button id="btn-extract" class="primary" disabled>Extrair todas as conversas</button>
+  <button id="btn-open" class="secondary" hidden>Abrir o WhatsApp Web</button>
+  <button id="btn-reload" class="secondary" hidden>Recarregar a aba do WhatsApp</button>
+
+  <p class="note">
+    Para ler o texto, a extensão abre cada conversa na tela, uma por vez. Não mexa no WhatsApp Web até terminar.
+  </p>
+
+  <details id="options">
+    <summary>Opções</summary>
+    <label class="check">
+      <input type="checkbox" id="opt-skip-unread" checked />
+      <span><strong>Preservar conversas não lidas</strong> — não abre conversas com mensagens não lidas, para não
+        marcá-las como lidas. Elas saem só com data, hora e remetente, sem o texto.</span>
+    </label>
+    <label class="check">
+      <input type="checkbox" id="opt-deep" />
+      <span><strong>Aprofundar histórico</strong> — em cada conversa, rola até o início para trazer mensagens
+        antigas. Bem mais lento.</span>
+    </label>
+    <button id="btn-diagnose" class="link">Gerar relatório de diagnóstico (sem conteúdo de mensagens)</button>
+  </details>
+
+  <section id="progress" hidden>
+    <div class="bar"><div class="fill" id="fill"></div></div>
+    <div id="detail" class="detail"></div>
+    <button id="btn-cancel" class="link danger">Cancelar</button>
+  </section>
+
+  <section id="summary" hidden></section>
+
+  <footer>
+    Tudo é processado no seu computador; nada é enviado para servidores.
+    O arquivo gerado contém dados pessoais de terceiros: guarde e compartilhe com cuidado (LGPD).
+  </footer>
+  <script src="popup.js"></script>
+</body>
+</html>
