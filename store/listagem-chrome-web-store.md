@@ -70,7 +70,7 @@ A extensão só funciona no WhatsApp Web. O acesso ao site é necessário para l
 - [x] Não uso nem transfiro dados do usuário para fins não relacionados ao propósito único do item
 - [x] Não uso nem transfiro dados do usuário para determinar capacidade de crédito ou para empréstimos
 
-**URL da política de privacidade:** publicar `store/politica-de-privacidade.md` em um endereço público (por exemplo GitHub Pages deste repositório) e colar o link aqui.
+**URL da política de privacidade:** https://mainsantiago.github.io/ExtratorWhatsapp/privacidade/
 
 ## Pontos de atenção na revisão
 - **Marca registrada:** o nome usa "para WhatsApp Web" de forma descritiva, sem logo do WhatsApp, e a descrição deixa claro que não há afiliação. Se o Google recusar por marca, troque o nome no `manifest.json` para algo como "Extrator de Conversas — Exportador de Chats" e mantenha a menção ao WhatsApp só na descrição.

@@ -87,7 +87,7 @@ Os testes cobrem: formatação, CSV, zip (validado com `unzip`), normalização 
 1. Atualize `version` em `extension/manifest.json` (cada envio precisa de uma versão maior).
 2. Gere o pacote: `./scripts/package.sh` → `dist/extrator-conversas-vX.Y.Z.zip`.
 3. Crie a conta de desenvolvedor no [Painel do Chrome Web Store](https://chrome.google.com/webstore/devconsole) (taxa única de registro).
-4. Publique a política de privacidade (`store/politica-de-privacidade.md`) em uma URL pública, por exemplo no GitHub Pages.
+4. A política de privacidade é publicada pelo GitHub Pages (pasta `docs/`, Settings → Pages → main /docs): https://mainsantiago.github.io/ExtratorWhatsapp/privacidade/
 5. Envie o .zip e preencha a listagem com os textos e respostas prontos em [`store/listagem-chrome-web-store.md`](store/listagem-chrome-web-store.md).
 6. Adicione de 1 a 5 capturas de tela de 1280×800, sem dados reais visíveis.
 

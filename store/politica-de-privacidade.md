@@ -31,4 +31,4 @@ O arquivo gerado contém dados pessoais seus e de terceiros. Guarde-o em local s
 Esta extensão é independente e não é afiliada, endossada ou patrocinada pelo WhatsApp ou pela Meta. "WhatsApp" é marca de seus respectivos titulares.
 
 ## Contato
-[PREENCHER: nome do responsável e e-mail de contato]
+Roberto Santiago — dúvidas e solicitações pelo GitHub: https://github.com/mainsantiago/ExtratorWhatsapp/issues
